@@ -16,4 +16,11 @@ export default class Calculator {
 
     return venusAgeCalculate;
   }
+
+  calculateMars() {
+    let marsAge = 0;
+    let marsAgeCalculate = Math.floor(((this.earthAge * 365) / 687));
+
+    return marsAgeCalculate;
+  }
 }
