@@ -55,3 +55,11 @@ describe('calculateMarsExpectancy', () => {
   expect(calculateExpectancy.calculateMarsExpectancy()).toEqual(65);
   })
 })
+
+describe('calculateJupiterExpectancy', () => {
+
+  test('should correctly calculate how many years a person has left to live on Jupiter based on life expectancy', () => {
+  let calculateExpectancy = new Calculator(30, 80);
+  expect(calculateExpectancy.calculateJupiterExpectancy()).toEqual(78);
+  })
+})
