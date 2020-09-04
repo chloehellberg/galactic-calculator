@@ -6,10 +6,9 @@ export default class Calculator {
 
 
   calculateMercury() {
-    let mercuryAge = 0;
     let mercuryAgeCalculate = Math.floor(((this.earthAge * 365) / 88));
-    
-    return mercuryAgeCalculate;
+    let sentence = `You would be ${mercuryAgeCalculate} years old if you were on Mercury.`;
+    return sentence;
   }
 
   calculateVenus() {
