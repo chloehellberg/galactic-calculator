@@ -8,65 +8,41 @@
 
 - Test #1
 1. Describe: Create a method to calculate person's age in Mercury years (Mercury year is .24 Earth years).
-2. Code:
-3. Test:
-4. Expect:
 
 ---
 
 - Test #2
 1. Describe: Create a method to calculate person's age in Venus years (Venus year is 0.62 Earth years).
-2. Code:
-3. Test:
-4. Expect:
 
 ---
 
 - Test #3
 1. Describe: Create a method to calculate person's age in Mars years (Mars year is 1.88 Earth years).
-2. Code:
-3. Test:
-4. Expect:
 
 ---
 
 - Test #4
 1. Describe: Create a method to calculate person's age in Jupiter years (Jupiter year is 11.86 Earth years).
-2. Code:
-3. Test:
-4. Expect:
 
 ---
 
 - Test #5
 1. Describe: Create a method to calculate how many years a user has left on Mercury. Life expectancy will be 80 years in this test.
-2. Code:
-3. Test:
-4. Expect:
 
 ---
 
 - Test #6
 1. Describe: Create a method to calculate how many years a user has left on Venus. Life expectancy will be 80 years in this test.
-2. Code:
-3. Test:
-4. Expect:
 
 ---
 
 - Test #7
 1. Describe: Create a method to calculate how many years a user has left on Mars. Life expectancy will be 80 years in this test.
-2. Code:
-3. Test:
-4. Expect:
 
 ---
 
 - Test #8
 1. Describe: Create a method to calculate how many years a user has left on Jupiter. Life expectancy will be 80 years in this test.
-2. Code:
-3. Test:
-4. Expect:
 
 ---
 
