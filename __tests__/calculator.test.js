@@ -8,3 +8,11 @@ describe('calculateMercury', () => {
   })
 })
 
+describe('calculateVenus', () => {
+
+  test('should correctly calculate a persons current age on Venus', () => {
+    let calculateVenusAge = new Calculator(30);
+    expect(calculateVenusAge.calculateVenus()).toEqual(48);
+  })
+})
+
