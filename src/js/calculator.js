@@ -35,7 +35,7 @@ export default class Calculator {
 
   calculateMercuryExpectancy() {
     let mercuryAge = this.calculateMercury();
-    let mercuryExpectancy = (mercuryAge - 80);
+    let mercuryExpectancy = (80 - mercuryAge);
 
     return mercuryExpectancy;
   }

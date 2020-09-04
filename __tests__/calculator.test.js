@@ -36,13 +36,13 @@ describe('calculateMercuryExpectancy', () => {
 
   test('should correctly calculate how many years a person has lived past life expectancy on Mercury', () => {
     let calculateExpectancy = new Calculator(30, 80);
-    expect(calculateExpectancy.calculateMercuryExpectancy()).toEqual(44);
+    expect(calculateExpectancy.calculateMercuryExpectancy()).toEqual(-44);
   })
 })
 
 describe('calculateVenusExpectancy', () => {
 
-  test('should correctly calculate how many years a person has lived past life expectancy on Venus', () => {
+  test('should correctly calculate how many years a person has left to live on Venus based on life expectancy', () => {
   let calculateExpectancy = new Calculator(30, 80);
   expect(calculateExpectancy.calculateVenusExpectancy()).toEqual(32);
   })
