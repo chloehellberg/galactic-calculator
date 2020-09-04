@@ -23,4 +23,11 @@ export default class Calculator {
 
     return marsAgeCalculate;
   }
+
+  calculateJupiter() {
+    let jupiterAge = 0;
+    let jupiterAgeCalculate = Math.floor((this.earthAge / 12));
+
+    return jupiterAgeCalculate;
+  }
 }
