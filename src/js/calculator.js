@@ -9,4 +9,11 @@ export default class Calculator {
     
     return mercuryAgeCalculate;
   }
+
+  calculateVenus() {
+    let venusAge = 0;
+    let venusAgeCalculate = Math.floor(((this.earthAge * 365) / 225));
+
+    return venusAgeCalculate;
+  }
 }
