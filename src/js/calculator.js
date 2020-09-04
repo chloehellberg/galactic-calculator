@@ -32,4 +32,12 @@ export default class Calculator {
 
     return jupiterAgeCalculate;
   }
+
+  calculateMercuryExpectancy() {
+    let mercuryAge = this.calculateMercury();
+    let mercuryExpectancy = (mercuryAge - 80);
+
+    return mercuryExpectancy;
+    
+  }
 }

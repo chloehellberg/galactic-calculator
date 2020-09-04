@@ -34,7 +34,7 @@ describe('calculateJupiter', () => {
 
 describe('calculateMercuryExpectancy', () => {
 
-  test('should correctly calculate how many years a person has left on Mercury (in this case, how many years surpassed) based on life expectancy', () => {
+  test('should correctly calculate how many years a person has left on Mercury based on life expectancy', () => {
     let calculateExpectancy = new Calculator(30, 80);
     expect(calculateExpectancy.calculateMercuryExpectancy()).toEqual(44);
   })
