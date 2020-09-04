@@ -46,4 +46,11 @@ export default class Calculator {
 
     return venusExpectancy;
   }
+
+  calculateMarsExpectancy() {
+    let marsAge = this.calculateMars();
+    let marsExpectancy = (80 - marsAge);
+
+    return marsExpectancy;
+  }
 }
