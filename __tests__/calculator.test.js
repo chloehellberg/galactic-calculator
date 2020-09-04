@@ -24,3 +24,10 @@ describe('calculateMars', () => {
   })
 })
 
+describe('calculateJupiter', () => {
+
+  test('should correctly calculate a persons current age on Jupiter', () => {
+    let calculateJupiterAge = new Calculator(30);
+    expect(calculateJupiterAge.calculateJupiter()).toEqual(2);
+  })
+})
