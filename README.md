@@ -6,43 +6,35 @@
 
 ## Description/Spec Details
 
-- Test #1
-1. Describe: Create a method to calculate person's age in Mercury years (Mercury year is .24 Earth years).
+- Test #1 Describe: Create a method to calculate person's age in Mercury years (Mercury year is .24 Earth years).
 
 ---
 
-- Test #2
-1. Describe: Create a method to calculate person's age in Venus years (Venus year is 0.62 Earth years).
+- Test #2 Describe: Create a method to calculate person's age in Venus years (Venus year is 0.62 Earth years).
 
 ---
 
-- Test #3
-1. Describe: Create a method to calculate person's age in Mars years (Mars year is 1.88 Earth years).
+- Test #3 Describe: Create a method to calculate person's age in Mars years (Mars year is 1.88 Earth years).
 
 ---
 
-- Test #4
-1. Describe: Create a method to calculate person's age in Jupiter years (Jupiter year is 11.86 Earth years).
+- Test #4 Describe: Create a method to calculate person's age in Jupiter years (Jupiter year is 11.86 Earth years).
 
 ---
 
-- Test #5
-1. Describe: Create a method to calculate how many years a user has left on Mercury. Life expectancy will be 80 years in this test.
+- Test #5 Describe: Create a method to calculate how many years a user has left on Mercury. Life expectancy will be 80 years in this test.
 
 ---
 
-- Test #6
-1. Describe: Create a method to calculate how many years a user has left on Venus. Life expectancy will be 80 years in this test.
+- Test #6 Describe: Create a method to calculate how many years a user has left on Venus. Life expectancy will be 80 years in this test.
 
 ---
 
-- Test #7
-1. Describe: Create a method to calculate how many years a user has left on Mars. Life expectancy will be 80 years in this test.
+- Test #7 Describe: Create a method to calculate how many years a user has left on Mars. Life expectancy will be 80 years in this test.
 
 ---
 
-- Test #8
-1. Describe: Create a method to calculate how many years a user has left on Jupiter. Life expectancy will be 80 years in this test.
+- Test #8 Describe: Create a method to calculate how many years a user has left on Jupiter. Life expectancy will be 80 years in this test.
 
 ---
 
