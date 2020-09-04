@@ -4,7 +4,7 @@ describe('calculateMercury', () => {
 
   test('should correctly calculate a persons current age on Mercury', () => {
     let calculateMercuryAge = new Calculator(30);
-    expect(calculateMercuryAge.calculateMercury()).toEqual("You would be 124 years old if you were on Mercury.");
+    expect(calculateMercuryAge.calculateMercury()).toEqual(124);
   })
 })
 
