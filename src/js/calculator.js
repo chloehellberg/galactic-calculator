@@ -1,7 +1,9 @@
 export default class Calculator {
-  constructor(earthAge) {
+  constructor(earthAge, lifeExpectancy) {
     this.earthAge = earthAge;
+    this.lifeExpectancy = lifeExpectancy;
   }
+
 
   calculateMercury() {
     let mercuryAge = 0;
