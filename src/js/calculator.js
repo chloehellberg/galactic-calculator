@@ -53,4 +53,11 @@ export default class Calculator {
 
     return marsExpectancy;
   }
+
+  calculateJupiterExpectancy() {
+    let jupiterAge = this.calculateJupiter();
+    let jupiterExpectancy = (80 - jupiterAge);
+
+    return jupiterExpectancy;
+  }
 }
