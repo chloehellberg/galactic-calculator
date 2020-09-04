@@ -38,6 +38,12 @@ export default class Calculator {
     let mercuryExpectancy = (mercuryAge - 80);
 
     return mercuryExpectancy;
-    
+  }
+
+  calculateVenusExpectancy() {
+    let venusAge = this.calculateVenus();
+    let venusExpectancy = (80 - venusAge);
+
+    return venusExpectancy;
   }
 }
