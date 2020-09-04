@@ -1,6 +1,6 @@
 export default class Calculator {
-  constructor() {
-    this.earthAge = 30;
+  constructor(earthAge) {
+    this.earthAge = earthAge;
   }
 
   calculateMercury() {
@@ -8,6 +8,5 @@ export default class Calculator {
     let mercuryAgeCalculate = Math.floor(((this.earthAge * 365) / 88));
     
     return mercuryAgeCalculate;
-    
   }
 }
