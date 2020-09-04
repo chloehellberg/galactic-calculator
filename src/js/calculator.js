@@ -13,13 +13,16 @@ export default class Calculator {
 
   calculateMercuryExpectancy() {
     let mercuryAge = this.calculateMercury();
-    let mercuryExpectancy = (80 - mercuryAge);
+    let mercuryExpectancy = (this.lifeExpectancy - mercuryAge);
     return mercuryExpectancy;
   }
 
-  // mercurySentences() {
-  //   let userSentence
-  // }
+  mercurySentence() {
+    let mercuryAge = this.calculateMercury();
+    let mercuryAgeExpectancy = this.calculateMercuryExpectancy();
+    let userSentence = `You are ${mercuryAge} years old and based on an 80 year life expectancy, are ${mercuryAgeExpectancy} years past that.`
+    return userSentence;
+  }
 
 
   //Venus Calculations
@@ -30,7 +33,7 @@ export default class Calculator {
 
   calculateVenusExpectancy() {
     let venusAge = this.calculateVenus();
-    let venusExpectancy = (80 - venusAge);
+    let venusExpectancy = (this.lifeExpectancy - venusAge);
     return venusExpectancy;
   }
 
@@ -45,7 +48,7 @@ export default class Calculator {
 
   calculateMarsExpectancy() {
     let marsAge = this.calculateMars();
-    let marsExpectancy = (80 - marsAge);
+    let marsExpectancy = (this.lifeExpectancy - marsAge);
     return marsExpectancy;
   }
 
@@ -60,7 +63,7 @@ export default class Calculator {
 
   calculateJupiterExpectancy() {
     let jupiterAge = this.calculateJupiter();
-    let jupiterExpectancy = (80 - jupiterAge);
+    let jupiterExpectancy = (this.lifeExpectancy - jupiterAge);
     return jupiterExpectancy;
   }
 }

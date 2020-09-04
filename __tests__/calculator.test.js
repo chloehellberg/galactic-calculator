@@ -68,6 +68,30 @@ describe('mercurySentence', () => {
 
   test('should return sentence about Mercury using template literals', () => {
   let userSentence = new Calculator(30, 80);
-  expect(userSentence.mercurySentence()).toEqual("You are 124 years old and based on an 80 year life expectancy, are 44 years past that.");
+  expect(userSentence.mercurySentence()).toEqual("You are 124 years old and based on an 80 year life expectancy, are -44 years past that.");
+  })
+})
+
+describe('venusSentence', () => {
+
+  test('should return sentence about Venus using template literals', () => {
+  let userSentence = new Calculator(30, 80);
+  expect(userSentence.venusSentence()).toEqual("You are 48 years old and based on an 80 year life expectancy, you will live 32 more years.");
+  })
+})
+
+describe('marsSentence', () => {
+
+  test('should return sentence about Mars using template literals', () => {
+  let userSentence = new Calculator(30, 80);
+  expect(userSentence.marsSentence()).toEqual("You are 2 years old and based on an 80 year life expectancy, you will live 78 more years.");
+  })
+})
+
+describe('Sentence', () => {
+
+  test('should return sentence about Mars using template literals', () => {
+  let userSentence = new Calculator(30, 80);
+  expect(userSentence.jupiterSentence()).toEqual("You are 15 years old and based on an 80 year life expectancy, you will live 65 more years.");
   })
 })
