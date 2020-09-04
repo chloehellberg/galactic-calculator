@@ -84,14 +84,14 @@ describe('marsSentence', () => {
 
   test('should return sentence about Mars using template literals', () => {
   let userSentence = new Calculator(30, 80);
-  expect(userSentence.marsSentence()).toEqual("You are 2 years old and based on an 80 year life expectancy, you will live 78 more years.");
+  expect(userSentence.marsSentence()).toEqual("You are 15 years old and based on an 80 year life expectancy, you will live 65 more years.");
   })
 })
 
 describe('Sentence', () => {
 
-  test('should return sentence about Mars using template literals', () => {
+  test('should return sentence about Jupiter using template literals', () => {
   let userSentence = new Calculator(30, 80);
-  expect(userSentence.jupiterSentence()).toEqual("You are 15 years old and based on an 80 year life expectancy, you will live 65 more years.");
+  expect(userSentence.jupiterSentence()).toEqual("You are 2 years old and based on an 80 year life expectancy, you will live 78 more years.");
   })
 })
