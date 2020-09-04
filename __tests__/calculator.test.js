@@ -1,9 +1,10 @@
 import Calculator from './../src/js/calculator';
 
-describe('Calculator', () => {
+describe('calculateMercury', () => {
 
-  test('should correctly calculate a persons age on Mercury', () => {
-    const mercuryAge = new Calculator (30);
-    expect(mercuryAge.calculateMercury).toEqual(124);
+  test('should correctly calculate a persons current age on Mercury', () => {
+    let calculateMercuryAge = new Calculator();
+    let earthAge = 30;
+    expect(calculateMercuryAge.calculateMercury()).toEqual(124);
   })
 })
