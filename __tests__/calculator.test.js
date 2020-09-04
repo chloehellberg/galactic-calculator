@@ -59,3 +59,32 @@ test('should return sentence about Jupiter using template literals', () => {
     expect(userSentence.jupiterSentence()).toEqual("You are 2 years old and based on an 80 year life expectancy, you will live 78 more years.");
   })
 })
+
+//Refactored Testing
+
+describe('Refactor Calculator', () => {
+  let newCalculation = new Calculator(30, 80);
+
+test('method should return calculations for any planet', () => {
+  expect(newCalculation.calculateAge("mercury")).toEqual(124)
+  expect(newCalculation.calculateAge("venus")).toEqual(48)
+  expect(newCalculation.calculateAge("mars")).toEqual(15)
+  expect(newCalculation.calculateAge("jupiter")).toEqual(2)
+  })
+})
+
+describe('Refactor Expectancy', () => {
+  let newExpectancyCalculation = new Calculator(30, 80);
+
+test('method should return life expectancy for any planet', () => {
+  expect(newExpectancyCalculation.calculateExpectancy("venus")).toEqual(32)
+  })
+})
+
+describe('Refactor Sentences', () => {
+  let newSentence = new Calculator(30, 80);
+
+test('method should return life expectancy for any planet', () => {
+  expect(newSentence.updateSentence("venus")).toEqual("You are 48 years old and based on an 80 year life expectancy, you will live 32 more years.")
+  })
+})

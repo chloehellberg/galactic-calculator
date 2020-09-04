@@ -1,8 +1,43 @@
+const yearsByPlanet =  {
+  mercury: 88,
+  venus: 225,
+  mars: 687,
+  jupiter: 12
+}
+
 export default class Calculator {
   constructor(earthAge, lifeExpectancy) {
     this.earthAge = earthAge;
     this.lifeExpectancy = lifeExpectancy;
   }
+
+
+
+  //Refactored Calculator for All Planets
+  calculateAge(planetName) {
+    let calculateAge = Math.floor(((this.earthAge * 365) / yearsByPlanet[planetName]));
+    if(planetName === 'jupiter') {
+      calculateAge = Math.floor(this.earthAge  / yearsByPlanet[planetName]);
+    }
+    return calculateAge;
+  }
+
+
+  //Refactored Expectancy Calculator for All Planets
+  calculateExpectancy(planetName) {
+    let planetAge = this.calculateAge(planetName);
+    let planetExpectancy = (this.lifeExpectancy - planetAge);
+    return planetExpectancy;
+  }
+
+ //Refactored Sentences for All Planets
+ updateSentence(planetName) {
+   let firstPart = this.calculateAge(planetName);
+   let secondPart = this.calculateExpectancy(planetName);
+   let userSentence = `You are ${firstPart} years old and based on an 80 year life expectancy, you will live ${secondPart} more years.`
+    return userSentence;
+ }
+
 
 
   //Mercury Calculations
