@@ -1,23 +1,22 @@
-const yearsByPlanet =  {
-  mercury: 88,
-  venus: 225,
-  mars: 687,
-  jupiter: 12
-}
-
 export default class Calculator {
   constructor(earthAge, lifeExpectancy) {
     this.earthAge = earthAge;
     this.lifeExpectancy = lifeExpectancy;
+    this.yearsByPlanet = {
+      mercury: 88,
+      venus: 225,
+      mars: 687,
+      jupiter: 12
+    }
   }
 
 
 
   //Refactored Calculator for All Planets
   calculateAge(planetName) {
-    let calculateAge = Math.floor(((this.earthAge * 365) / yearsByPlanet[planetName]));
+    let calculateAge = Math.floor(((this.earthAge * 365) / this.yearsByPlanet[planetName]));
     if(planetName === 'jupiter') {
-      calculateAge = Math.floor(this.earthAge  / yearsByPlanet[planetName]);
+      calculateAge = Math.floor(this.earthAge  / this.yearsByPlanet[planetName]);
     }
     return calculateAge;
   }
