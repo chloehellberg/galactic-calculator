@@ -8,50 +8,50 @@
 
 - Test #1 
   * Describe: Create a method to calculate person's age in Mercury years (Mercury year is .24 Earth years).
-  * Input:
-  * Output:
+  * Input: "30"
+  * Output: "124"
 ---
 
 - Test #2 
   * Describe: Create a method to calculate person's age in Venus years (Venus year is 0.62 Earth years).
-  * Input:
-  * Output:
+  * Input: "30"
+  * Output: "48"
 ---
 
 * Test #3 
   * Describe: Create a method to calculate person's age in Mars years (Mars year is 1.88 Earth years).
-  * Input:
-  * Output:
+  * Input: "30"
+  * Output: "15"
 ---
 
 - Test #4 
   * Describe: Create a method to calculate person's age in Jupiter years (Jupiter year is 11.86 Earth years).
-  * Input:
-  * Output:
+  * Input: "30"
+  * Output: "2"
 ---
 
 - Test #5 
   * Describe: Create a method to calculate how many years a user has left on Mercury. Life expectancy will be 80 years in this test.
-  * Input:
-  * Output:
+  * Input: Static age input - "30", Static life expectancy - "80"
+  * Output: "-44" years past expectancy
 ---
 
 - Test #6 
   * Describe: Create a method to calculate how many years a user has left on Venus. Life expectancy will be 80 years in this test.
-  * Input:
-  * Output:
+  * Input: Static age input - "30", Static life expectancy - "80"
+  * Output: "32" years left
 ---
 
 - Test #7 
   * Describe: Create a method to calculate how many years a user has left on Mars. Life expectancy will be 80 years in this test.
-  * Input:
-  * Output:
+  * Input: Static age input - "30", Static life expectancy - "80"
+  * Output: "65" years left
 ---
 
 - Test #8 
   * Describe: Create a method to calculate how many years a user has left on Jupiter. Life expectancy will be 80 years in this test.
-  * Input:
-  * Output:
+  * Input: Static age input - "30", Static life expectancy - "80"
+  * Output: "78" years left
 ---
 
 ## Setup/Installation Requirements
