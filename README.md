@@ -6,44 +6,59 @@
 
 ## Description/Spec Details
 
-- Test #1 Describe: Create a method to calculate person's age in Mercury years (Mercury year is .24 Earth years).
-
+- Test #1 
+  * Describe: Create a method to calculate person's age in Mercury years (Mercury year is .24 Earth years).
+  * Input:
+  * Output:
 ---
 
-- Test #2 Describe: Create a method to calculate person's age in Venus years (Venus year is 0.62 Earth years).
-
+- Test #2 
+  * Describe: Create a method to calculate person's age in Venus years (Venus year is 0.62 Earth years).
+  * Input:
+  * Output:
 ---
 
-- Test #3 Describe: Create a method to calculate person's age in Mars years (Mars year is 1.88 Earth years).
-
+* Test #3 
+  * Describe: Create a method to calculate person's age in Mars years (Mars year is 1.88 Earth years).
+  * Input:
+  * Output:
 ---
 
-- Test #4 Describe: Create a method to calculate person's age in Jupiter years (Jupiter year is 11.86 Earth years).
-
+- Test #4 
+  * Describe: Create a method to calculate person's age in Jupiter years (Jupiter year is 11.86 Earth years).
+  * Input:
+  * Output:
 ---
 
-- Test #5 Describe: Create a method to calculate how many years a user has left on Mercury. Life expectancy will be 80 years in this test.
-
+- Test #5 
+  * Describe: Create a method to calculate how many years a user has left on Mercury. Life expectancy will be 80 years in this test.
+  * Input:
+  * Output:
 ---
 
-- Test #6 Describe: Create a method to calculate how many years a user has left on Venus. Life expectancy will be 80 years in this test.
-
+- Test #6 
+  * Describe: Create a method to calculate how many years a user has left on Venus. Life expectancy will be 80 years in this test.
+  * Input:
+  * Output:
 ---
 
-- Test #7 Describe: Create a method to calculate how many years a user has left on Mars. Life expectancy will be 80 years in this test.
-
+- Test #7 
+  * Describe: Create a method to calculate how many years a user has left on Mars. Life expectancy will be 80 years in this test.
+  * Input:
+  * Output:
 ---
 
-- Test #8 Describe: Create a method to calculate how many years a user has left on Jupiter. Life expectancy will be 80 years in this test.
-
+- Test #8 
+  * Describe: Create a method to calculate how many years a user has left on Jupiter. Life expectancy will be 80 years in this test.
+  * Input:
+  * Output:
 ---
 
 ## Setup/Installation Requirements
 
-* _Clone the application to your desktop_
-* _This project currently doesn't have a UI and is only used for testing._
-
-_Please note that this requires an dev environment that includes Jest for testing purposes._
+* _Clone galactic-calculator repository from GitHub_
+* _Run npm install to install application dependencies to your environment_
+* _Once dependencies are intalled, type npm run test to check if all tests are passing with Jest_
 
 ## Known Bugs
 
@@ -55,7 +70,7 @@ _If you run into issues, please email chloe.hellberg@gmail.com with questions or
 
 ## Technologies Used
 
-_This application utilizes JavaScript and Jest for testing purposes._
+_This application utilizes JavaScript, NPM, webpack and Jest for testing purposes._
 
 ### License
 
